@@ -1,0 +1,9 @@
+body{
+  background-color: lightblue;
+}
+
+.container{
+  width: min(100% - 40px, 800px);
+  margin-inline: auto;
+  background-color: grey;
+}
