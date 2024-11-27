@@ -100,7 +100,6 @@ body{
 .inline{
   display: inline;
   background-color: #ff0000;
-  border: 1px solid black ;
 }
 
 .inline-block{
