@@ -37,7 +37,11 @@ body{
   clear: both;
 }
 
-.float img p{
+.float-title{
+  text-align: center;
+}
+
+.float, img p{
   padding: 10px;
 }
 
