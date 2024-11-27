@@ -118,5 +118,36 @@ body{
   padding: 10px;
 }
 
+.box-sizing {
+  background-color:aqua;
+  
+
+}
+.border-box {
+  box-sizing:border-box;
+  border: 5px solid black;
+  padding: 20px;
+  /* width content + pading + border  */
+  width: 500px;
+  margin: 20px auto;
+  background-color:bisque;
+  
+}
+.border-box_text {
+}
+.content-box {
+  box-sizing: content-box;
+  border:5px solid black;
+  padding: 20px;
+  margin: 0 auto;
+  /* width content */
+  width: 500px;
+  background-color:bisque;
+  
+}
+.content-box_text {
+
+}
+
 
 
