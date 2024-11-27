@@ -29,7 +29,39 @@ body{
   color: blue;
 }
 
+/* свойства overflow index.html */
 
+.overflow{
+  text-align: center;
+}
+.over{
+  width: 500px;
+  height: 100px;
+  background-color: coral;
+  margin: 10px auto;
+  padding: 10px;
+}
+
+.over span{
+  color: green;
+  font-size: 20px;
+}
+
+.visible{
+  overflow: visible;
+}
+
+.hidden{
+  overflow: hidden;
+}
+
+.scroll{
+  overflow: scroll;
+}
+
+.auto{
+  overflow: auto;
+}
 /* свойства для float.html */
 .container::after{
   content: '';
