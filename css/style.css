@@ -4,7 +4,94 @@ body{
 
 .container{
   width: min(100% - 40px, 800px);
-  margin-inline: auto;
+  margin: 0 auto;
   background-color: grey;
 }
+
+
+
+.menu ul{}
+
+.menu a{
+  color: red;
+  text-decoration: none;
+}
+
+.menu a:visited{
+  color: purple;
+}
+
+.menu a:hover{
+  color: greenyellow;
+}
+
+.menu a:active{
+  color: blue;
+}
+
+
+/* свойства для float.html */
+.container::after{
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.float img p{
+  padding: 10px;
+}
+
+.fl-left{
+  float: left;
+}
+
+.fl-right{
+  float: right;
+}
+
+.fl-img__size{
+  width: 33%;
+}
+
+.wrapper{
+  width: 500px;
+  height: 500px;
+  margin: 20px auto;
+}
+.wraper::after{
+  content:'';
+  display: block;
+  clear: both;
+}
+.red {
+  background-color: red;
+  width: 50%;
+  height: 50%;
+  float: left;
+}
+
+.blue {
+  background-color: blue;
+  width: 50%;
+  height: 50%;
+  float: right;
+}
+
+.green {
+  background-color: green;
+  width: 50%;
+  height: 50%;
+  float: left;
+}
+
+.black {
+  background-color: black;
+  width: 50%;
+  height: 50%;
+  float: right;
+}
+
+
+
+
 
